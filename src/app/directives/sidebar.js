@@ -14,7 +14,7 @@
         $scope.currentSchemeType = defaultSchema.type;
         $scope.currentScheme     = defaultSchema.id;
         $scope.responseDetails   = false;
-        $scope.currentProtocol   = $scope.raml.protocols[0];
+        // $scope.currentProtocol   = $scope.raml.protocols[0];
 
         function readCustomSchemeInfo (name) {
           if (!$scope.methodInfo.headers.plain) {
